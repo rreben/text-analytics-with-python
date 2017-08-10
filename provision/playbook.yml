@@ -2,6 +2,7 @@
   become: true
 
   vars:
+    - anaconda_python_ver : 2
     - anaconda_make_sys_default: True
 
   roles:
