@@ -87,3 +87,20 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# vagrant and atom
+.vagrant/
+provision/*.retry
+provision/roles/andrewrothstein.anaconda
+provision/roles/andrewrothstein.bash
+provision/roles/andrewrothstein.unarchive-deps
+.DS_Store
+Thumbs.db
+*.pyc
+out
+.ipynb_checkpoints
+vagrant/bootstrap_complete.txt
+vagrant/.vagrant/
+twitter.oauth_access
+Berksfile.lock
+._*
